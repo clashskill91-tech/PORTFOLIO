@@ -1,0 +1,15 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+body{@apply bg-ink text-zinc-200 font-sans antialiased overflow-x-hidden}
+:focus-visible{outline:2px solid #7dd3fc;outline-offset:2px}
+@layer components{
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-300 disabled:opacity-50 disabled:pointer-events-none}
+.btn-primary{@apply btn bg-white text-black hover:bg-accent}
+.btn-ghost{@apply btn border border-white/10 bg-white/[0.03] text-zinc-200 hover:bg-white/10}
+.btn-danger{@apply btn bg-red-500/90 text-white hover:bg-red-500}
+.input{@apply w-full rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 text-sm text-white placeholder:text-zinc-500 transition duration-300 focus:border-accent/60}
+.card{@apply rounded-2xl border border-white/10 bg-white/[0.03]}
+.container-x{@apply mx-auto w-full max-w-6xl px-5 sm:px-8}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,-20px)}}
+.drift{animation:drift 14s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.drift{animation:none}html{scroll-behavior:auto}}

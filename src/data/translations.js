@@ -1,0 +1,55 @@
+export const GITHUB = 'https://github.com/' // TODO: your real GitHub profile URL
+export const EMAIL = '' // TODO: your real email
+export const CATEGORIES = ['React','JavaScript','Frontend','Fullstack','UI/UX']
+export const translations = {
+  uz: {
+    home:'Bosh sahifa', about:'Men haqimda', projects:'Loyihalar', contact:'Aloqa',
+    badge:'Frontend Developer', heroTitle:'Men zamonaviy web tajribalar yarataman.',
+    heroText:'React va zamonaviy web texnologiyalar yordamida tezkor, responsive va foydalanuvchiga qulay interfeyslar yarataman.',
+    viewProjects:'Loyihalarni ko‘rish', github:'GitHub', aboutTitle:'Men haqimda',
+    aboutText:'Men zamonaviy web texnologiyalar bilan ishlashga qiziqadigan frontend developer sifatida rivojlanmoqdaman. ITLive o‘quv markazida React, JavaScript va zamonaviy frontend texnologiyalarini o‘rganib, real loyihalar yaratishga e’tibor qarataman.',
+    aboutEdu:'Ta’lim', aboutEduText:'ITLive o‘quv markazi talabasi',
+    aboutFocus:'Yo‘nalish', aboutFocusText:'Avval frontend, keyin backend, API va ma’lumotlar bazalari',
+    aboutGoal:'Maqsad', aboutGoalText:'Real loyihalarda tajriba orttirib, full-stack developerga aylanish',
+    skills:'Ko‘nikmalar', featured:'Tanlangan loyihalar', allProjects:'Barcha loyihalar', seeAll:'Hammasini ko‘rish',
+    search:'Nomi, texnologiyasi yoki kategoriyasi bo‘yicha qidirish', all:'Barchasi', noProjects:'Loyihalar topilmadi.',
+    noProjectsHint:'Qidiruv yoki filtrni o‘zgartirib ko‘ring.', code:'Kod', demo:'Demo',
+    contactTitle:'Hamkorlik qilamizmi?', contactText:'Loyiha yoki ish taklifi bo‘lsa, yozing.', writeMe:'Yozish',
+    rights:'Barcha huquqlar himoyalangan.', loadError:'Ma’lumotlarni yuklab bo‘lmadi. Keyinroq urinib ko‘ring.', retry:'Qayta urinish',
+    notFound:'Sahifa topilmadi', backHome:'Bosh sahifaga qaytish', noImage:'Rasm yo‘q',
+    login:'Kirish', email:'Email', password:'Parol', loginError:'Email yoki parol noto‘g‘ri.', logout:'Chiqish',
+    dashboard:'Boshqaruv paneli', total:'Jami loyihalar', featuredCount:'Tanlanganlar', addProject:'Loyiha qo‘shish', editProject:'Loyihani tahrirlash',
+    edit:'Tahrirlash', delete:'O‘chirish', cancel:'Bekor qilish', confirmDelete:'Bu loyihani o‘chirishga ishonchingiz komilmi?',
+    save:'Saqlash', saving:'Saqlanmoqda...', titleUz:'Sarlavha (UZ)', titleEn:'Sarlavha (EN)', descUz:'Tavsif (UZ)', descEn:'Tavsif (EN)',
+    image:'Rasm', category:'Kategoriya', technologies:'Texnologiyalar (vergul bilan)', githubUrl:'GitHub havolasi', demoUrl:'Demo havolasi',
+    featuredLabel:'Bosh sahifada ko‘rsatish', uploading:'Yuklanmoqda...', invalidUrl:'Havola noto‘g‘ri (https:// bilan boshlang).',
+    INVALID_TYPE:'Faqat JPG, PNG yoki WebP.', TOO_LARGE:'Rasm 3 MB dan oshmasligi kerak.', UPLOAD_FAILED:'Rasmni yuklab bo‘lmadi.',
+    CREATE_FAILED:'Loyihani yaratib bo‘lmadi.', UPDATE_FAILED:'Loyihani yangilab bo‘lmadi.', DELETE_FAILED:'Loyihani o‘chirib bo‘lmadi.', LOAD_FAILED:'Ma’lumotlarni yuklab bo‘lmadi.',
+    requiredTitle:'Ikkala sarlavha ham kerak.', notAdmin:'Bu hisobda admin huquqi yo‘q.', setup:'Supabase sozlanmagan: .env faylini to‘ldiring.'
+  },
+  en: {
+    home:'Home', about:'About', projects:'Projects', contact:'Contact',
+    badge:'Frontend Developer', heroTitle:'I build modern web experiences.',
+    heroText:'I create fast, responsive and user-friendly interfaces using React and modern web technologies.',
+    viewProjects:'View Projects', github:'GitHub', aboutTitle:'About me',
+    aboutText:'I am growing as a frontend developer interested in modern web technologies. At ITLive I am learning React, JavaScript and modern frontend tools, and I focus on building real projects.',
+    aboutEdu:'Education', aboutEduText:'Student at ITLive learning center',
+    aboutFocus:'Focus', aboutFocusText:'Frontend first, then backend, APIs and databases',
+    aboutGoal:'Goal', aboutGoalText:'Gain experience on real projects and grow into a full-stack developer',
+    skills:'Skills', featured:'Featured projects', allProjects:'All projects', seeAll:'See all',
+    search:'Search by name, technology or category', all:'All', noProjects:'No projects found.',
+    noProjectsHint:'Try changing the search or filter.', code:'Code', demo:'Live demo',
+    contactTitle:'Let’s work together', contactText:'Got a project or a job offer? Write to me.', writeMe:'Write to me',
+    rights:'All rights reserved.', loadError:'Could not load data. Please try again later.', retry:'Try again',
+    notFound:'Page not found', backHome:'Back to home', noImage:'No image',
+    login:'Sign in', email:'Email', password:'Password', loginError:'Incorrect email or password.', logout:'Log out',
+    dashboard:'Dashboard', total:'Total projects', featuredCount:'Featured', addProject:'Add project', editProject:'Edit project',
+    edit:'Edit', delete:'Delete', cancel:'Cancel', confirmDelete:'Are you sure you want to delete this project?',
+    save:'Save', saving:'Saving...', titleUz:'Title (UZ)', titleEn:'Title (EN)', descUz:'Description (UZ)', descEn:'Description (EN)',
+    image:'Image', category:'Category', technologies:'Technologies (comma separated)', githubUrl:'GitHub URL', demoUrl:'Demo URL',
+    featuredLabel:'Show on home page', uploading:'Uploading...', invalidUrl:'Invalid URL (start with https://).',
+    INVALID_TYPE:'JPG, PNG or WebP only.', TOO_LARGE:'Image must be under 3 MB.', UPLOAD_FAILED:'Image upload failed.',
+    CREATE_FAILED:'Could not create the project.', UPDATE_FAILED:'Could not update the project.', DELETE_FAILED:'Could not delete the project.', LOAD_FAILED:'Could not load data.',
+    requiredTitle:'Both titles are required.', notAdmin:'This account is not an admin.', setup:'Supabase is not configured: fill in .env.'
+  }
+}
