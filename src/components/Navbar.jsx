@@ -6,7 +6,7 @@ export default function Navbar() {
   const { t, lang, setLang } = useLang()
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
-  const links = [['/', 'home'], ['/#about', 'about'], ['/projects', 'projects'], ['/#contact', 'contact']]
+  const links = [['/', 'home'], ['/projects', 'projects'], ['/#contact', 'contact']]
   const Lang = (
     <div className="flex rounded-full border border-white/10 p-0.5 text-xs font-medium" role="group" aria-label="Language">
       {['uz', 'en'].map(l => <button key={l} onClick={() => setLang(l)} aria-pressed={lang === l}
