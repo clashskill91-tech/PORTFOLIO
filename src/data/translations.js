@@ -1,5 +1,5 @@
-export const GITHUB = 'https://github.com/' // TODO: your real GitHub profile URL
-export const EMAIL = '' // TODO: your real email
+export const GITHUB = 'https://github.com/clashskill91-tech'
+export const EMAIL = 'shamsiddinb05@gmail.com'
 export const CATEGORIES = ['React','JavaScript','Frontend','Fullstack','UI/UX']
 export const translations = {
   uz: {
